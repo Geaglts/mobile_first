@@ -397,7 +397,7 @@ main {
 .main-plans-container {
     width: 100%;
     min-width: 320px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -520,4 +520,34 @@ main {
 
 .slider-space {
     padding: 5px;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: var(--bitcoin-orange);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-list-left ul {
+    list-style: none;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+footer .footer-list-left ul li {
+    margin: 10px 0;
+}
+
+footer .footer-list-left ul li a {
+    color: var(--just-white);
+    text-decoration: none;
 }
