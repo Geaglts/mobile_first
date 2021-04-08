@@ -1,0 +1,15 @@
+@media (min-width: 930px) {
+    .product-card--container {
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        width: 930px;
+        margin: 0 auto;
+    }
+
+    .main-tables-container {
+        display: flex;
+        width: 930px;
+        margin: 0 auto;
+    }
+}
